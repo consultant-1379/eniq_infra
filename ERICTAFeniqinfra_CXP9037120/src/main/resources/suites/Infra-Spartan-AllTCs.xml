@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="test">
+	<test name="test">
+		<classes>
+			<class name="com.ericsson.eniq.stats.infra.tests.PackageVerificationTest" />
+		    <class name="com.ericsson.eniq.stats.infra.tests.MWSKickstartTest" />
+			<class name="com.ericsson.eniq.stats.infra.tests.PatchTest" />
+			<class name="com.ericsson.eniq.stats.infra.tests.StorageTest" />
+			<class name="com.ericsson.eniq.stats.infra.tests.NodeHardeningTest" />
+		</classes>
+	</test>
+</suite>

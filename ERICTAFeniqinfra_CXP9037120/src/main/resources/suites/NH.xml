@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="test">
+	<test name="test">
+		<classes>
+			<class name="com.ericsson.eniq.stats.infra.tests.testprintstatement" />
+			
+			
+		</classes>
+	</test>
+</suite>

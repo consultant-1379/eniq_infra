@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="eniq_infra">
+	<test name="eniq_infra">
+		<classes>
+			<class name="com.ericsson.eniq.stats.infra.tests.SampleTest" />
+			<class name="com.ericsson.eniq.stats.infra.tests.OsDetailTest" />
+		</classes>
+	</test>
+</suite>
